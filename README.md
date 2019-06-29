@@ -1,2 +1,4 @@
 # health-monitoring
 Tool to give health insights from wearable monitoring devices. Currently working on website and device specific API reading. 
+
+The jupyter notebook here is my work on anomaly detection in heart rate and sleep patterns, which I worked on from 2018 to 2019. Using a monitoring device, I tracked my sleep and heartrate over the course of 9 months. My goal is to create an application which uses the device api and signals a user when abnormal sleep or BPM readings are detected. Currently, I'm working on a web framework to deploy these signals to a user and provide a place where they can view reading histories and potential warnings. The neural nets used in the jupyter notebook are simple, but gave me valuable information on how to interpret the data and prepare it for ML models. 
